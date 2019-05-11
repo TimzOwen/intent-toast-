@@ -16,8 +16,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btn = (Button) findViewById(R.id.btnSend);
-
+        btn = (Button) findViewById(R.id.btnSend);// This declares the button for reference of xml ids and java code
+//create a a listner to check on the button that has been clicked on for the funtion to de done
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
