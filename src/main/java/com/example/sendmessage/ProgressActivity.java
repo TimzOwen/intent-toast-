@@ -16,6 +16,8 @@ public class ProgressActivity extends AppCompatActivity {
         setContentView(R.layout.activity_progress);
 
         imageView = (ImageView)findViewById(R.id.ivuno);
+        
+        //implemment the view.OnClickListener
 
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
